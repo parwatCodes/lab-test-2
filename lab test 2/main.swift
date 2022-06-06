@@ -37,6 +37,8 @@ func bookFirstClass() {
                 
                 if (userChoice == "Y" || userChoice == "y") {
                     bookEconomyClass()
+                } else if (userChoice == "N" || userChoice == "n") {
+                  print("Next flight leaves in 3 hrs.")
                 } else {
                     print("Wrong input provided, Please retry!")
                 }
@@ -65,6 +67,8 @@ func bookEconomyClass() {
                 
                 if (userChoice == "Y" || userChoice == "y") {
                     bookFirstClass()
+                } else if (userChoice == "N" || userChoice == "n") {
+                  print("Next flight leaves in 3 hrs.")
                 } else {
                     print("Wrong input provided, Please retry!")
                 }
