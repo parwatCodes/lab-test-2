@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		66339798284E296300198760 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66339797284E296300198760 /* main.swift */; };
+		663397A1284E310F00198760 /* Airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663397A0284E310F00198760 /* Airline.swift */; };
+		663397A3284E312C00198760 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663397A2284E312C00198760 /* Flight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		66339794284E296300198760 /* lab test 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lab test 2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66339797284E296300198760 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		663397A0284E310F00198760 /* Airline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airline.swift; sourceTree = "<group>"; };
+		663397A2284E312C00198760 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 		6633978B284E296200198760 = {
 			isa = PBXGroup;
 			children = (
+				663397A2284E312C00198760 /* Flight.swift */,
+				663397A0284E310F00198760 /* Airline.swift */,
 				66339796284E296300198760 /* lab test 2 */,
 				66339795284E296300198760 /* Products */,
 			);
@@ -120,6 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663397A3284E312C00198760 /* Flight.swift in Sources */,
+				663397A1284E310F00198760 /* Airline.swift in Sources */,
 				66339798284E296300198760 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
